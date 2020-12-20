@@ -1,0 +1,18 @@
+{
+  "item.obsidiane.compressed_obsidian": "Compressed Obsidian",
+  "item.obsidiane.obsidian_axe": "Obsidian Axe",
+  "item.obsidiane.obsidian_boots": "Obsidian Boots",
+  "item.obsidiane.obsidian_chestplate": "Obsidian Chestplate",
+  "item.obsidiane.obsidian_helmet": "Obsidian Helmet",
+  "item.obsidiane.obsidian_hoe": "Obsidian Hoe",
+  "item.obsidiane.obsidian_leggings": "Obsidian Leggings",
+  "item.obsidiane.obsidian_pickaxe": "Obsidian Pickaxe",
+  "item.obsidiane.obsidian_shovel": "Obsidian Shovel",
+  "item.obsidiane.obsidian_sword": "Obsidian Sword",
+  "item.obsidiane.refined_obsidian": "Refined Obsidian",
+
+  "block.obsidiane.compressed_obsidian": "Compressed Obsidian",
+  "block.obsidiane.refined_obsidian": "Refined Obsidian",
+
+  "itemGroup.obsidiane.general": "Obsidiane"
+}

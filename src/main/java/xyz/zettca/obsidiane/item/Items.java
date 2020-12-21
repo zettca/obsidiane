@@ -2,12 +2,16 @@ package xyz.zettca.obsidiane.item;
 
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.block.Block;
-import net.minecraft.item.*;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
 import net.minecraft.item.Item.Settings;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import xyz.zettca.obsidiane.Materials;
 import xyz.zettca.obsidiane.block.Blocks;
+import xyz.zettca.obsidiane.item.Builder.*;
 
 import static xyz.zettca.obsidiane.Obsidiane.NS;
 
@@ -27,11 +31,11 @@ public class Items {
 
     static {
         // Items
-        OBSIDIAN_SWORD = register("obsidian_sword", (new SwordItem(Materials.OBSIDIAN, 3, -2.4F, group())));
-        OBSIDIAN_SHOVEL = register("obsidian_shovel", (new Shovel(Materials.OBSIDIAN, 1.5F, -3.0F, group())));
-        OBSIDIAN_PICKAXE = register("obsidian_pickaxe", (new Pickaxe(Materials.OBSIDIAN, 1, -2.8F, group())));
-        OBSIDIAN_AXE = register("obsidian_axe", (new Axe(Materials.OBSIDIAN, 5.0F, -3.0F, group())));
-        OBSIDIAN_HOE = register("obsidian_hoe", (new Hoe(Materials.OBSIDIAN, -3, 0.0F, group())));
+        OBSIDIAN_SWORD = register("obsidian_sword", (new Sword(Materials.OBSIDIAN, 3, -2.4F)));
+        OBSIDIAN_SHOVEL = register("obsidian_shovel", (new Shovel(Materials.OBSIDIAN, 1.5F, -3.0F)));
+        OBSIDIAN_PICKAXE = register("obsidian_pickaxe", (new Pickaxe(Materials.OBSIDIAN, 1, -2.8F)));
+        OBSIDIAN_AXE = register("obsidian_axe", (new Axe(Materials.OBSIDIAN, 5.0F, -3.0F)));
+        OBSIDIAN_HOE = register("obsidian_hoe", (new Hoe(Materials.OBSIDIAN, -3, 0.0F)));
 
         // BlockItems
         REFINED_OBSIDIAN = register(Blocks.REFINED_OBSIDIAN);
